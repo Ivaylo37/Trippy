@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T02:31:21 EEST" name="Surefire suite" finished-at="2023-05-02T02:31:21 EEST" duration-ms="265">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T02:31:21 EEST" name="Surefire test" finished-at="2023-05-02T02:31:21 EEST" duration-ms="265">
+      <class name="org.scalefocus.service.UserServiceTest">
+        <test-method signature="testCreateUser_Works_Properly() throws org.scalefocus.exception.InvalidUsernameException,org.scalefocus.exception.InvalidPhoneNumberFormatException,org.scalefocus.exception.InvalidEmailException" started-at="2023-05-02T02:31:21 EEST" name="testCreateUser_Works_Properly" finished-at="2023-05-02T02:31:21 EEST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_Works_Properly -->
+        <test-method signature="testCreateUser_Throws_When_UsernameLengthIsUnderMinLength()" started-at="2023-05-02T02:31:21 EEST" name="testCreateUser_Throws_When_UsernameLengthIsUnderMinLength" finished-at="2023-05-02T02:31:21 EEST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_Throws_When_UsernameLengthIsUnderMinLength -->
+      </class> <!-- org.scalefocus.service.UserServiceTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
